@@ -1,0 +1,88 @@
+#content {
+    background-color: rgb(254, 254, 254);
+    box-shadow: 1px 1px 8px rgb(85, 85, 85);
+    padding: 1em 3em;
+}
+
+body {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 0px;
+    background-color: rgb(238, 238, 238);
+    font: 300 14pt/19pt "Brawler","Libre Baskerville","Source Code Pro","Droid Sans Serif","Open Sans",Cambria,Georgia,"DejaVu Serif",serif;
+    text-align: justify;
+    padding: 12px;
+    word-wrap: break-word;
+    -moz-hyphens: auto;
+}
+
+.title {
+    color: rgb(255, 92, 85);
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+h1 {
+    font-size: 20pt;
+    text-indent: 0em;
+    text-align: left;
+    line-height: 12pt;
+}
+
+.subtitle {
+    color: rgba(255, 165, 0, 0.8);
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+    font-size: 16pt;
+}
+
+iframe {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(52, 146, 154);
+}
+
+p {
+    text-indent: 0em;
+}
+
+p {
+    color: rgb(46, 46, 46);
+}
+
+.rectleg {
+    float: left;
+    margin-right: 3px;
+    width: 25px;
+    height: 19px;
+}
+
+.half {
+	display:inline-block;
+	vertical-align:top;
+	width:45%;
+}
+
+.nav {
+	display:inline-block;
+	vertical-align:top;
+	background-color: rgba(255, 165, 0, .2);
+	width: 125px;
+    height: 25px;
+	text-align: center;
+    margin-right: 25px;
+}
+
+.nav a {
+	line-height: 22px;
+	text-transform: lowercase;
+}
+
+.nav a:hover {
+	text-transform: uppercase;
+}
